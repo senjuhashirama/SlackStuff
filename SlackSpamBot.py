@@ -9,6 +9,6 @@ url_vars = {
   'text': 'Chitty is gay.', #message
 }
 
-while True:
+while 0==0: #courtesy of nevermore
     requests.get('https://slack.com/api/chat.postMessage?' + ('&'.join(map('='.join, url_vars.items()))))
 
